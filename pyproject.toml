@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "дз -13-0 телеграм бот"
+version = "0.1.0"
+description = ""
+authors = ["Maksim Toguzov <magadan499@mail.ru>"]
+readme = "README.md"
+packages = [{include = "дз _13"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
