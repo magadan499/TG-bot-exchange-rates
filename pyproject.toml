@@ -8,6 +8,8 @@ packages = [{include = "дз _13"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+requests = "^2.31.0"
+pytelegrambotapi = "^4.15.2"
 
 
 [build-system]
